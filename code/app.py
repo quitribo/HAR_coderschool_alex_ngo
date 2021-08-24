@@ -78,7 +78,7 @@ elif choice == 'CNN':
     # Create box to input video
     st.title('Upload your videos (.mp4 / .mpeg)')
     uploaded_file = st.file_uploader(' ',['mp4','mpeg'])
-    img_height, img_width = 64,64
+    image_height, image_width = 64,64
     predictions_frames_count = frame_rate
 
     # Adding columns to format video and prediction table
