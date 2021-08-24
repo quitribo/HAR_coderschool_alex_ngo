@@ -70,7 +70,7 @@ elif choice == 'CNN':
         "Number of Frames",
         min_value=1,
         max_value=100,
-        value=1,
+        value=100,
         step=1,
         help="Number of frames that CNN uses to average",
     )
