@@ -2,5 +2,5 @@ matplotlib==3.4.3
 pandas==1.2.5
 streamlit==0.86.0
 tensorflow==2.6.0
-cv2==4.5
+cv2==3.3.2
 scikit_learn==0.24.2
