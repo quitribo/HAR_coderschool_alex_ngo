@@ -77,7 +77,7 @@ I created a function called __frames_extraction(video_path)__ that extracts fram
 - Appends the normalized frame into a list
 - Finally returns that list.
 
-:::info
+
 :bulb: **Note:** function written for CNN with modification for LSTM
 
 ```python
@@ -113,7 +113,7 @@ def frames_extraction(video_path):
     # returning the frames list 
     return frames_list
 ```
-:::
+
 
 __3. Dataset Creation__
 
@@ -128,7 +128,7 @@ I created a function called __create_dataset()__, this function uses the frame_e
 - Add labels of the selected videos to the `labels` list.
 - After all videos of all classes are processed then return the features and labels as NumPy arrays.
 
-:::info
+
 :bulb: **Note:** function written for CNN with modification for LSTM
 ``` python
 def create_dataset():
@@ -175,7 +175,7 @@ def create_dataset():
 
     return features, labels
 ```
-:::
+
 
 Calling the create_dataset method which returns features and labels.
 
