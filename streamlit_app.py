@@ -48,7 +48,7 @@ if choice == 'VGG16 + LSTM':
 
         with col2:            
                 g = io.BytesIO(uploaded_file.read())            # BytesIO Object
-                temporary_location = r"../code/temp.mp4"     # save to temp file
+                temporary_location = r"../test_videos/temp.mp4"     # save to temp file
                 with open(temporary_location, 'wb') as out:     # Open temporary file as bytes
                     out.write(g.read())                         # Read bytes into file
                     out.close()                                 # close file
@@ -90,7 +90,7 @@ elif choice == 'CNN':
 
         with col2:
                 g = io.BytesIO(uploaded_file.read())            # BytesIO Object
-                temporary_location = r"../code/temp.mp4"     # save to temp file
+                temporary_location = r"../test_videos/temp.mp4"     # save to temp file
                 with open(temporary_location, 'wb') as out:     # Open temporary file as bytes
                     out.write(g.read())                         # Read bytes into file
                     out.close()                                 # close file
