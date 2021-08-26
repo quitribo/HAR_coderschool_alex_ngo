@@ -13,7 +13,6 @@ import matplotlib.pyplot as plt
 
 from sklearn.model_selection import train_test_split
 
-
 ################################################################################
 #######################        GLOBAL SETTINGS        ##########################
 ################################################################################
@@ -33,7 +32,7 @@ image_height, image_width = 64, 64
 ################################################################################
 
 # Load the CNN model
-model = tf.keras.models.load_model(r'../models/CNN_epochs_15_batch_16.h5')
+model = tf.keras.models.load_model(r'models/CNN_epochs_15_batch_16.h5')
 
 
 ################################################################################

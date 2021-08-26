@@ -13,7 +13,6 @@ import matplotlib.pyplot as plt
 
 from sklearn.model_selection import train_test_split
 
-
 ################################################################################
 #######################        GLOBAL SETTINGS        ##########################
 ################################################################################
@@ -35,7 +34,7 @@ sequence_length = 70
 ################################################################################
 
 # Load LSTM model
-model = tf.keras.models.load_model(r'../models/LSTM_epochs_20_batch_64.h5')
+model = tf.keras.models.load_model(r'/models/LSTM_epochs_20_batch_64.h5')
 
 
 ################################################################################
