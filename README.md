@@ -272,6 +272,8 @@ Expected result
 ## Streamlit app
 
 
+https://share.streamlit.io/quitribo/coderschool_final_project/main
+
 ![](https://i.imgur.com/c4atNyp.png)
 
 
