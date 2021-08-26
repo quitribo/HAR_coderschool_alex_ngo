@@ -35,7 +35,7 @@ sequence_length = 70
 ################################################################################
 
 # Load LSTM model
-model = tf.keras.models.load_model(r'../LSTM_epochs_20_batch_64.h5')
+model = tf.keras.models.load_model(r'../models/LSTM_epochs_20_batch_64.h5')
 
 
 ################################################################################
