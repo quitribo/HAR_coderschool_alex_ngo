@@ -37,7 +37,7 @@ This project is about Human Activity Recognition. Project is completed in 4 week
 * **code**  
     - CNN_model.py 
     - LSTM_model.py 
-    - app.py 
+    - streamlit_app.py 
 * **models**
     - CNN_epochs_15_batch_16.h5
     - LSTM_epochs_20_batch_64.h5
