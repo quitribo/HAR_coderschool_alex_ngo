@@ -28,14 +28,12 @@ image_height, image_width = 64, 64
 sequence_length = 70
 
 
-
 ################################################################################
 #######################        LOAD MODEL             ##########################
 ################################################################################
 
 # Load LSTM model
-model = tf.keras.models.load_model(r'/models/LSTM_epochs_20_batch_64.h5')
-
+model = tf.keras.models.load_model(os.path.join('models','LSTM_epochs_20_batch_64.h5'))
 
 ################################################################################
 #######################        MAKE PREDICTION         #########################
